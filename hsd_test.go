@@ -1,6 +1,7 @@
 package hsd
 
 import (
+	"fmt"
 	"reflect"
 	"testing"
 )
@@ -27,4 +28,13 @@ func TestStringDistance(t *testing.T) {
 			}
 		})
 	}
+}
+
+func ExampleStringDistance() {
+	lhs := "abc"
+	rhs := "abf"
+	dist := StringDistance(lhs, rhs)
+
+	fmt.Println(dist)
+	// Output: 1
 }
