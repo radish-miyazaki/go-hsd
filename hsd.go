@@ -1,3 +1,4 @@
+// Package hsd provides a function to calculate the Hamming distance between two strings.
 package hsd
 
 // StringDistance returns the Hamming distance between two strings.
